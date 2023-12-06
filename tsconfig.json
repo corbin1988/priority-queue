@@ -23,6 +23,10 @@
       "dom"
     ]
   },
+  "include": [
+    "src/**/*.ts",
+    "src/app.routes.ts" // Add this line if it's missing
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
